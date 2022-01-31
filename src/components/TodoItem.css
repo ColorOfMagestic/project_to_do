@@ -1,0 +1,29 @@
+.todoItem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 20px 0;
+  width: 70%;
+  border-bottom: 1px solid #cecece;
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: #333333;
+}
+
+.todoItem_input {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  font-size: 30px
+
+}
+.todoItem_input:focus {
+outline: 0;
+}
+
+.todoItem_text {
+  padding-left: 15px;
+  font-size: 18px;
+
+}
